@@ -6,7 +6,7 @@ import createSlider from '../../scripts/slider.js';
 function setCarouselItems(number) {
     document.querySelector('.carousel > ul')?.style.setProperty('--items-per-view', number);
 }
-
+// export function
 export default function decorate(block) {
   let i = 0;
   setCarouselItems(2);
